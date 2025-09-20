@@ -2,4 +2,5 @@
  * Arquivo de índice para exportar todos os serviços
  */
 
-export { AppService, IAppService } from "./app-service";
+export { AppService } from "./app-service";
+export type { IAppService } from "./app-service";
