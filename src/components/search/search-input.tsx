@@ -88,29 +88,6 @@ export function SearchInput({
       <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
         <SearchIcon className="h-5 w-5 text-muted-foreground" />
       </div>
-
-      {internalValue && (
-        <button
-          onClick={handleClear}
-          disabled={disabled}
-          className="absolute inset-y-0 right-0 flex items-center pr-3 text-muted-foreground hover:text-foreground transition-colors disabled:opacity-50"
-          aria-label="Limpar busca"
-        >
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path d="M18 6L6 18" />
-            <path d="M6 6l12 12" />
-          </svg>
-        </button>
-      )}
     </div>
   );
 }
