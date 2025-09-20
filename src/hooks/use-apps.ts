@@ -4,7 +4,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { App, SearchFilters, SearchResults, LoadingState } from "@/types";
-import { AppService, IAppService } from "@/services/app-service";
+import { IAppService } from "@/services/app-service";
 
 /**
  * Interface para o retorno do hook

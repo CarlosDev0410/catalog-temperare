@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 /**
  * Props do componente Skeleton
  */
-interface SkeletonProps extends React.HTMLAttributes<HTMLDivElement> {}
+type SkeletonProps = React.HTMLAttributes<HTMLDivElement>;
 
 /**
  * Componente de skeleton para loading states
