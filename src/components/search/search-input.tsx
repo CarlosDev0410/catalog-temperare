@@ -68,10 +68,6 @@ export function SearchInput({
   /**
    * Limpa o input
    */
-  const handleClear = useCallback(() => {
-    setInternalValue("");
-    onChange?.("");
-  }, [onChange]);
 
   return (
     <div className={`relative ${className || ""}`}>

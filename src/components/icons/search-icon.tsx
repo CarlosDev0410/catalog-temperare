@@ -7,7 +7,7 @@ import React from "react";
 /**
  * Props do componente SearchIcon
  */
-interface SearchIconProps extends React.SVGProps<SVGSVGElement> {}
+type SearchIconProps = React.SVGProps<SVGSVGElement>;
 
 /**
  * Componente de ícone de busca reutilizável
